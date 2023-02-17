@@ -1,0 +1,109 @@
+@charset "utf-8";
+/*
+	Design by Shane Doyle <iamshanedoyle@ubuntu>
+*/
+
+html, body {
+	height			: 100%;
+	padding			: 0;
+	margin			: 0;
+	color			: #4d4d4d;
+	font			: normal 12px Arial, Helvetica, sans-serif;
+	background		: #efefef;
+}
+
+.main {
+	min-height		: 100%;
+	margin			: 0 auto;
+	width			: 840px;
+}
+
+/* Header Styles */
+.header {
+	width			: 800px;
+	height			: 30px;
+	padding			: 20px;	
+	background		: -moz-linear-gradient(-90deg, #363737, #252525);
+	background		: -webkit-gradient(linear,left top, left bottom, from(#363737), to(#252525));
+	border			: 1px solid #aaa;
+	color			: #78bbe6;
+	font-size		: 28px;
+	text-align		: center;
+}
+
+.title {
+	color			: #fff;
+	font-size		: 24px;
+}
+
+
+.motto {
+	color			: #fff;
+	font-size		: 12px;
+}
+
+.home {
+	float			: left;
+}
+
+.home a{
+	color			: #78bbe6;
+	font-size		: 12px;
+}
+
+/* Content Styles */
+.content {
+	overflow		: auto;
+	width			: 800px;
+	min-height		: 100%;
+	padding			: 0 20px 120px 20px;
+	border			: 1px solid #aaa;
+	background		: #ffffff;
+} 
+
+
+/* Menu Styles */
+.menu{
+    list-style		: none outside none;
+    margin			: 0;
+    padding			: 0;
+}
+
+.menu li {
+    padding			: 5px 10px;
+    border			: 1px solid #ccc;
+    width			: 300px;
+    margin			: 5px 0px;
+	background		: #363737;
+}
+
+.menu li a {
+    color			: #fff;
+    display			: block;
+    font			: 16px Arial;
+    font-weight		: bold;
+    text-decoration	: none;
+    
+}
+
+
+
+/* Footer Styles */
+.footer {
+	width			: 800px;
+	position		: relative;
+	margin-top		: 0px;
+	height			: 20px;
+	clear			: both;
+	background		: -moz-linear-gradient(90deg, #363737, #252525);
+	background		: -webkit-gradient(linear,left top, left bottom, from(#252525),to(#363737));
+	border			: 1px solid #aaa;
+	padding			: 10px 20px;	
+	color			: #fff;
+	text-align		: center;
+}
+
+.footer span {
+	color			: #78bbe6;
+	font-size		: 16px;
+}
